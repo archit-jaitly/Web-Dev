@@ -1,0 +1,239 @@
+body{
+    margin: -20px;
+    width:100vw;
+}
+
+#header-sec{
+    background-image: url(workperch-3SLXlrC-rLg-unsplash.jpg);
+    height:87vh;
+    width:100vw;
+    padding-top: 0%;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity:0.89;
+
+
+}
+
+.stick{
+    position: sticky;
+    top:0;
+}
+.stick img{
+    text-align: right;
+    width:3rem;
+    height:3rem;
+    background-size: contain;
+    margin-left:92%;
+}
+
+.horizontal-list{
+    list-style-type: none;
+}
+
+.horizontal-list li{
+    display:inline-block;
+    margin: 10px 10px 0px 10px;
+    font-weight: 400;
+    color: white;
+}
+
+.horizontal-list li a{
+    color:white;
+    text-decoration: none;
+    transition:color 0.5s border 1s ;
+}
+
+.horizontal-list li a:hover{
+    color:burlywood;
+    border-bottom: 1px crimson;
+}
+
+
+
+.text-center{
+    text-align:center;
+    align-items: center;
+}
+
+.my-name{
+    font-size:xx-large;
+    text-transform:uppercase;
+    letter-spacing: 0.1rem;
+    word-spacing: 1rem;
+    color:white;
+}
+
+#name-logo{
+    padding-top:45vh;
+    position:relative;
+}
+
+.logo-cont li img{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 15%;
+    opacity:0.99;
+}
+
+.my-img img{
+    position: relative;
+    border-radius: 50%;
+    margin-top: -10vh;
+    height:30vh;
+    width:30vh;
+    box-shadow: 0px 0px 11px 8px skyblue;
+}
+
+.about-text{
+    margin-top:5vh;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#exp{
+    background-color: rgb(236, 233, 233);
+    margin-top: 20vh;
+    padding:10%;
+    position: relative;
+    border:0px solid black;
+    width:auto;
+    text-align:center;
+    margin-left: 0%;
+}
+.exp-cont {
+    width:44%;
+    background-color: rgb(243, 235, 235);
+    margin-left: 4%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.exp-cont>span{
+    text-align: right;
+}
+
+.exp-cont:nth-child(2n){
+    margin-left:52%;
+}
+
+.exp-divider{
+    border: 2px solid black;
+    position:absolute;
+    height:75%;
+    width:0;
+    top:10%;
+    left:50%; 
+}
+
+#contact{
+    border:2px solid black;
+    margin-top:10vh;
+    height:auto;
+    position:relative;
+    margin-left: 0;
+    background:linear-gradient(-60deg,grey,rgb(55, 101, 119),grey );
+}
+
+
+.info{
+    text-align: center;
+    margin-top: 1%;
+    height:auto;
+    color:white;
+    justify-content: center;
+    display: inline-block;
+    text-align: center;
+    BORDER:2px solid skyblue;
+    MARGIN: 5px 5px 5px 5px;
+    width:30vw;
+}
+
+#contact{
+    text-align: center;
+}
+
+.info span{
+    margin-left: 0vw;
+    justify-content: center;
+}
+
+.cont{
+    font-size: 150%;
+    font-weight: 530;
+    color: white;
+    text-align: center;
+    margin-bottom: 2vh;
+    padding:10%;
+    padding-bottom: 0%;
+    text-decoration: underline;
+}
+.address{
+    display: inline-block;
+    border: 2px solid skyblue;
+    width:50vw;
+    justify-content: center;
+    height:auto;
+    color:white;
+    margin-top:1%;
+    margin-bottom:1%;
+}
+
+.skill-head{
+    color:brown;
+    weight:600;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+}
+
+#skill{
+    text-align: center;
+    background-color:rgb(247, 243, 211);
+    margin-top: 10vh;
+    margin-left: 0%;
+    width:100%;
+    padding-top: 0%;
+    padding-bottom: 7%;
+    border:2px solid whitesmoke;
+}
+.bar-cont{
+    display: inline-block;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 4%;
+    margin-right: 4%;
+    border-radius:  8% 8% 8% 8%;
+    width:200px;
+    background-color: white;
+    border:2px solid white;
+}
+
+.p85 span{
+    margin-left:6%;
+    color:white;
+}
+
+
+.p85{
+    border:2px solid blue;
+    width:85%;
+    border-radius: 8% 0 0 8%;
+    background-color: blue;
+}
+
+.p70{
+    background-color: goldenrod;
+    width:70%;
+}
+
+.p75{
+    background-color: teal;
+    width:75%;
+}
+
+.p55{
+    background-color: tomato;
+    width:50%;
+}
